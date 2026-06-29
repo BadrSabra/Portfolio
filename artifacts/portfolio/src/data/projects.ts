@@ -26,40 +26,42 @@ export const projects: Project[] = [
   {
     id: "tutorrl",
     name: "TutorRL",
-    typeBadge: "Educational Platform",
-    shortDescription: "A web-based tutoring application with personalized learning settings and session management.",
-    problem: "Students need a simple, accessible platform to manage their learning sessions and customize their study experience.",
-    stack: ["React", "Node.js", "Express", "Replit"],
+    typeBadge: "AI Tutoring Platform",
+    shortDescription: "An Arabic-language AI tutoring assistant for Egyptian secondary school (Thanaweyya Amma) students — conversational, RTL-native, and built for the Egyptian curriculum.",
+    problem: "Egyptian secondary school students preparing for the Thanaweyya Amma exams have no accessible, Arabic-first digital tutor that understands the local curriculum and can explain concepts conversationally.",
+    stack: ["React", "Node.js", "Express", "AI / LLM", "Arabic RTL"],
     liveUrl: "https://pasted-assets--omgasser2091999.replit.app/",
     slug: "tutorrl",
-    presentationFocus: "Shows product thinking and user-centered design",
+    presentationFocus: "Shows product thinking, domain specificity, and AI integration",
     details: {
-      overview: "TutorRL is a full-stack educational web application that provides students with a personalized learning environment. It supports configurable settings such as theme, language, font size, and learning style preferences, along with session tracking.",
-      solution: "A focused, user-first interface that lets learners tailor their environment and track their sessions — reducing friction so they can focus on learning.",
+      overview: "TutorRL is an Arabic-language AI-powered tutoring assistant built specifically for Egyptian secondary school (Thanaweyya Amma) students. It provides intelligent lesson explanations and step-by-step problem-solving guidance through a conversational interface — entirely in Arabic, with full RTL layout support.",
+      solution: "A conversational AI interface in Arabic that meets students where they are — in their language, on their curriculum. Instead of generic study tools, TutorRL is scoped tightly to the Egyptian secondary school context, making it immediately useful without any learning curve.",
       goals: [
-        "Deliver a clean, distraction-free learning interface",
-        "Allow per-user customization of theme, language, and learning style",
-        "Provide session management for ongoing study tracking"
+        "Deliver subject-matter guidance in Arabic for Thanaweyya Amma students",
+        "Provide a natural conversational interface rather than a rigid Q&A format",
+        "Support full Arabic RTL layout throughout the application",
+        "Keep the experience simple enough for students to use independently"
       ],
-      targetUsers: "Students looking for a structured, personalized study environment",
+      targetUsers: "Egyptian secondary school (Thanaweyya Amma) students studying for national exams",
       keyFeatures: [
+        "Conversational AI interface for lesson explanations and problem-solving",
+        "Full Arabic RTL UI — designed natively for right-to-left reading",
         "Configurable user preferences: theme, language, font size, and learning style",
-        "Session tracking and management",
-        "Responsive, accessible UI",
-        "Full-stack deployment on Replit"
+        "Session management for ongoing study tracking",
+        "Scoped to the Egyptian secondary school curriculum"
       ],
-      architecture: "Client-server architecture with a React frontend and an Express.js backend API. User settings are persisted server-side and loaded on session start.",
+      architecture: "Client-server architecture with a React frontend and an Express.js backend that proxies requests to an LLM API. User preferences and session state are persisted server-side.",
       engineeringDecisions: [
-        "Kept the settings model flexible (theme, language, font size, learning style) to accommodate diverse learner preferences without hardcoding assumptions.",
-        "Used a RESTful API to decouple the frontend from the data layer, making future backend swaps straightforward.",
-        "Prioritized simplicity and reliability over feature breadth for a focused v1 experience."
+        "Built the entire UI RTL-first rather than retrofitting — Arabic is the primary language, so layout decisions were made with that in mind from day one.",
+        "Kept the settings model flexible (theme, language, font size, learning style) to accommodate different student preferences without hardcoding assumptions.",
+        "Scoped the AI prompting to the Egyptian curriculum context to improve relevance and reduce off-topic responses."
       ],
-      challenges: "Ensuring user preference state stayed consistent across sessions and page refreshes without introducing unnecessary complexity in the state management layer.",
-      lessons: "Learned to resist scope creep and ship a coherent v1 — a focused, working product is more valuable than an ambitious but incomplete one.",
+      challenges: "Getting the AI to consistently respond in Arabic within the Egyptian curriculum context required careful prompt engineering. RTL layout also introduced edge cases in component spacing and text alignment that needed systematic handling.",
+      lessons: "Domain specificity is a feature, not a limitation. A tool built for one clear audience (Thanaweyya Amma students) is more useful than a generic tutoring app — and it is easier to explain to those users why it exists.",
       futureImprovements: [
-        "Gamification elements (streaks, badges) to sustain engagement",
-        "Offline support via Service Workers",
-        "Educator dashboard with student progress analytics"
+        "Subject-specific tutoring modes (Math, Arabic, Science, English)",
+        "Exam-style practice questions with AI-graded feedback",
+        "Offline support for students with limited connectivity"
       ]
     }
   },

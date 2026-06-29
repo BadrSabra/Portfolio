@@ -9,7 +9,7 @@ export const personalInfo = {
   phone: "+20 101 493 8000",
   github: "https://github.com/placeholder",
   linkedin: "https://www.linkedin.com/in/badr-aldien-sabra",
-  cvUrl: null, // Set to "/cv.pdf" once the file is added to artifacts/portfolio/public/
+  cvUrl: "/cv.html",
   availability: "Open to full-time, part-time, and contract work. Remote preferred.",
   whatIDo: [
     "Build full stack web apps",
