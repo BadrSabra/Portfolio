@@ -185,7 +185,7 @@ export default function ProjectMarketplace() {
               >
                 <span className="text-sm font-mono text-muted-foreground uppercase tracking-wider mb-2">Next Project</span>
                 <span className="text-xl md:text-2xl font-heading font-bold flex items-center gap-2 group-hover:text-primary transition-colors">
-                  System Core <ArrowRight className="w-5 h-5 md:w-6 md:h-6 group-hover:translate-x-2 transition-transform" />
+                  ClinicPro <ArrowRight className="w-5 h-5 md:w-6 md:h-6 group-hover:translate-x-2 transition-transform" />
                 </span>
               </Link>
             </div>

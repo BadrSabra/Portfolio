@@ -176,7 +176,7 @@ export default function ProjectTutorRL() {
               >
                 <span className="text-sm font-mono text-muted-foreground uppercase tracking-wider mb-2">Next Project</span>
                 <span className="text-2xl font-heading font-bold flex items-center gap-2 group-hover:text-primary transition-colors">
-                  Souk Mit Gaber <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
+                  Ma'a Gaber <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                 </span>
               </Link>
             </div>

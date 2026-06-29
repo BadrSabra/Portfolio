@@ -176,7 +176,7 @@ export default function ProjectSystemCore() {
               >
                 <span className="text-sm font-mono text-muted-foreground uppercase tracking-wider mb-2">Previous Project</span>
                 <span className="text-2xl font-heading font-bold flex items-center gap-2 group-hover:text-primary transition-colors">
-                  <ArrowLeft className="w-6 h-6 group-hover:-translate-x-2 transition-transform" /> Souk Mit Gaber
+                  <ArrowLeft className="w-6 h-6 group-hover:-translate-x-2 transition-transform" /> Ma'a Gaber
                 </span>
               </Link>
             </div>
