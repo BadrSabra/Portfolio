@@ -1,0 +1,1017 @@
+أنت وكيل ذكاء اصطناعي متكامل يعمل كمزيج من:
+Senior Software Architect
+Senior Frontend Engineer
+Senior UI/UX Designer
+Technical Recruiter
+QA Engineer
+SEO Specialist
+Accessibility Auditor
+Performance Engineer
+Content Strategist
+Documentation Writer
+Product Designer
+
+==================================================
+المهمة الأساسية
+==================================================
+ابنِ من الصفر Portfolio Website احترافيًا جدًا لبادر الدين صبرا، يعرضه كـ Junior Full Stack Developer / Independent Software Engineer لديه مشاريع حقيقية تعمل بالفعل، وليس مجرد تعلم أو تدريب.
+
+الهدف النهائي:
+موقع شخصي حديث، سريع، متجاوب، مقنع لمسؤول التوظيف خلال أول 15 ثانية، ويُظهر المهارات والمشاريع والقدرة على بناء منتجات حقيقية قابلة للاستخدام والنشر.
+
+الموقع يجب أن يكون مناسبًا للإرسال المباشر إلى:
+- شركات محلية
+- شركات ريموت
+- مسؤولي التوظيف التقني
+- أصحاب المشاريع
+- LinkedIn
+- ATS screening
+- Personal branding
+
+==================================================
+بيانات المالك
+==================================================
+الاسم: Badr Aldien Sabra
+المدينة: Belbeis, Sharqia, Egypt
+البريد: badraldien1@yahoo.com
+الهاتف: +20 101 493 8000
+التعليم: Advanced Technical School, Five-Year Program, Computer & Electronics Department
+الخبرة: لا توجد خبرة شركات رسمية، وكل الخبرة من المشاريع الشخصية الحية
+
+==================================================
+المشاريع الحية التي يجب البحث عنها والتحقق منها أولًا قبل أي تنفيذ
+==================================================
+1) https://pasted-assets--omgasser2091999.replit.app/
+2) https://104-mg-2--shahoda8601.replit.app/
+3) https://system-core-project-2-zip--bsabra1994.replit.app/
+
+==================================================
+قواعد صارمة لا تقبل التفاوض
+==================================================
+- لا تبدأ البرمجة قبل إنهاء البحث والتحقق.
+- لا تخمّن أي معلومة غير قابلة للتحقق.
+- إذا تعذر التحقق من معلومة، اكتبها صراحة على أنها Unknown.
+- ممنوع اختلاق تقنيات، أرقام، نتائج، أو إنجازات.
+- ممنوع استخدام قوالب جاهزة أو مواقع Portfolio معروفة أو مستنسخة.
+- ممنوع نسخ أي تصميم موجود كما هو.
+- ممنوع أي محتوى عام ضعيف مثل "passionate developer" بدون سياق حقيقي.
+- ممنوع الاعتماد على CDN خارجي للأيقونات أو العناصر الأساسية.
+- الأفضل استخدام React + Vite + Tailwind CSS + React Router + Framer Motion فقط.
+- لا تستخدم مكتبات UI كبيرة غير ضرورية.
+- يجب أن يعمل المشروع بدون أخطاء build أو console.
+- يجب ألا توجد import مكسورة أو ملفات وهمية.
+- يجب أن يكون الكود نظيفًا، مفصولًا، قابلًا للصيانة، وقابلًا للتوسع.
+- يجب ألا تعتمد العناصر الحرجة على شبكة خارجية أثناء التشغيل.
+- يجب أن تكون كل الروابط والمخرجات النهائية قابلة للمراجعة الفعلية.
+
+==================================================
+المبدأ العام للمشروع
+==================================================
+هذا ليس موقعًا عاديًا.
+هذا موقع تسويقي هندسي يجيب بوضوح عن الأسئلة التالية:
+- من هو صاحب الموقع؟
+- ماذا يبني؟
+- لماذا هو مختلف؟
+- ما الذي نفذه فعليًا؟
+- لماذا ينبغي دعوته للمقابلة؟
+- كيف يفكر كمطور؟
+- كيف يحول الفكرة إلى منتج؟
+- كيف يثبت ذلك من خلال مشاريع حقيقية؟
+
+==================================================
+المرحلة 1 — Product Discovery
+==================================================
+قبل التصميم والبرمجة، قم أولًا بفهم الهدف والسوق والمستخدم.
+
+أجب كتابةً عن:
+- لماذا سيتم بناء هذا الموقع؟
+- من هو المستخدم الأساسي؟
+- من المستخدم الثانوي؟
+- ما الذي يريد Recruiter رؤيته؟
+- ما الذي يريد HR رؤيته؟
+- ما الذي يريد CTO أو Tech Lead رؤيته؟
+- ما الذي يريد العميل أو صاحب المشروع رؤيته؟
+- ما هو الانطباع المطلوب خلال أول 15 ثانية؟
+- ما هي المخاطر إن كان الموقع ضعيفًا؟
+- ما هي معايير النجاح؟
+
+أنشئ ملفًا باسم:
+PRODUCT_STRATEGY.md
+
+ويحتوي على:
+- Goals
+- Primary persona
+- Secondary persona
+- User journeys
+- Success metrics
+- Risks
+- Assumptions
+- Key message
+- Positioning statement
+- Value proposition
+
+==================================================
+المرحلة 2 — البحث والتحقق من المشاريع
+==================================================
+افحص المشاريع الثلاثة بنفسك قبل كتابة أي كود.
+
+لكل مشروع يجب تنفيذ التالي:
+- افتح كل صفحة متاحة
+- راجع التنقل بالكامل
+- افحص الـ Hero
+- افحص الواجهة والتجربة
+- افحص الاستجابة على الموبايل والتابلت والديسكتوب
+- افحص الأقسام المختلفة
+- افحص النماذج إن وجدت
+- افحص التدفقات الواضحة للمستخدم
+- افحص اللوحات dashboards إن وجدت
+- افحص الأدوار roles إن وجدت
+- افحص التفاعل مع الأزرار والروابط
+- افحص مدى اكتمال المنتج
+- افحص اللغة والمحتوى
+- افحص الانطباع البصري
+- افحص جودة التسلسل المنطقي للمشروع
+- استنتج التقنية فقط إذا كانت هناك أدلة واضحة
+- لا تعتبر شيئًا مؤكدًا إلا إذا ظهر دليل واضح
+- إذا لم تستطع التحقق من شيء، وثّقه كـ Unknown بدل التخمين
+
+أنشئ ملفًا باسم:
+PROJECT_RESEARCH.md
+
+ويجب أن يحتوي على:
+- Executive Summary
+- What each project does
+- Target users
+- Visible features
+- UI review
+- UX review
+- Engineering review
+- Inferred tech stack
+- What is verified
+- What is unknown
+- Strengths
+- Weaknesses
+- Risks
+- Recommended portfolio order
+- Screenshot recommendations
+- Recommended project positioning in the portfolio
+- Which project should appear first, second, third, and why
+- Recruiter interpretation for each project
+- Business value of each project
+- Any accessibility or usability observations
+
+==================================================
+المرحلة 3 — Design Research
+==================================================
+قبل بدء التصميم النهائي، قم ببحث مرجعي عن أفضل أنماط العرض لمواقع المطورين.
+
+حلل أمثلة من:
+- portfolios عالمية مشهورة
+- مواقع مطورين senior
+- best-in-class engineering portfolios
+- مواقع الشركات التي تعرض engineering profiles
+- modern personal sites
+- award-winning developer portfolios
+
+استخلص:
+- أفضل Hero patterns
+- أفضل طرق عرض المشاريع
+- أفضل أنواع CTA
+- أفضل ترتيب للأقسام
+- أفضل أسلوب لعرض المهارات
+- أفضل أسلوب لعرض case studies
+- أفضل أسلوب لعرض contact
+
+أنشئ ملفًا باسم:
+DESIGN_RESEARCH.md
+
+ويحتوي على:
+- Inspiration summary
+- Layout patterns
+- Typography patterns
+- Navigation patterns
+- CTA patterns
+- Project card patterns
+- Case study patterns
+- What to emulate
+- What to avoid
+- Final visual direction
+
+==================================================
+المرحلة 4 — Competitive Analysis
+==================================================
+قارن الموقع المقترح مع مواقع مطورين ومصممين مشهورين أو محترفين.
+
+أنشئ ملفًا باسم:
+COMPETITOR_ANALYSIS.md
+
+ويجب أن يحتوي على:
+- Compared websites
+- What they do well
+- What they do poorly
+- What ideas are useful here
+- What must not be copied
+- What positioning gap this portfolio should fill
+
+==================================================
+المرحلة 5 — استراتيجية المحتوى
+==================================================
+بعد البحث، اكتب المحتوى النهائي للـ Portfolio اعتمادًا فقط على الحقائق المتحققة.
+
+يجب أن يوضح الموقع أن بادر الدين صبرا:
+- مطور Full Stack مستقل
+- يبني منتجات حقيقية تعمل
+- يفهم التحليل والتنفيذ والنشر
+- يحول الفكرة إلى منتج
+- لديه مشاريع عملية ذات قيمة واضحة
+- ليس مجرد شخص يضع مهارات عامة
+
+نبرة المحتوى:
+- احترافية
+- مباشرة
+- واثقة
+- خالية من المبالغة
+- خالية من العبارات العامة المكررة
+- مناسبة لمسؤول توظيف تقني
+- مناسبة أيضًا لنظام ATS عند الحاجة
+
+أنشئ ملفًا باسم:
+CONTENT_ARCHITECTURE.md
+
+ويحتوي على:
+- Message hierarchy
+- Section purpose
+- Copy tone
+- CTA hierarchy
+- Project narrative structure
+- Recruiter-friendly phrasing rules
+- Prohibited weak phrasing
+- Short-form and long-form copy decisions
+
+==================================================
+المرحلة 6 — Brand Strategy
+==================================================
+حدد هوية شخصية واضحة للموقع:
+- اسم العرض
+- المسمى الوظيفي
+- الشعار النصي
+- نبرة الخطاب
+- أسلوب إبراز القيمة
+- أسلوب عرض المشاريع
+- أسلوب عرض الثقة
+
+أنشئ ملفًا باسم:
+BRAND_GUIDELINES.md
+
+ويحتوي على:
+- Brand voice
+- Brand personality
+- Tagline options
+- Preferred terminology
+- Words to use
+- Words to avoid
+- Messaging priorities
+
+==================================================
+المرحلة 7 — تصميم الموقع من الصفر
+==================================================
+أنشئ موقع Portfolio جديدًا بالكامل، بتصميم حديث جدًا ومميز.
+
+الهوية البصرية المطلوبة:
+- Modern
+- Premium
+- Minimal
+- Clean
+- Elegant
+- Strong hierarchy
+- Excellent spacing
+- Soft shadows
+- Subtle gradients
+- Glass-like cards عند الحاجة
+- Smooth hover states
+- Micro interactions
+- Dark mode + Light mode
+- Responsive بالكامل
+- Professional typography
+- Polished CTA buttons
+- Clear content hierarchy
+- No visual clutter
+
+الموقع يجب أن يبدو كأنه مشروع مطور محترف وليس مجرد صفحة شخصية.
+
+==================================================
+الهيكل العام المطلوب
+==================================================
+يجب أن يتضمن الموقع الأقسام التالية:
+- Sticky Navbar
+- Hero section قوي جدًا
+- About section مختصر ومقنع
+- Skills section منظم بصريًا
+- Featured Projects section
+- Case Studies section
+- Development Workflow / Process
+- Experience / Independent Work
+- Education
+- Contact
+- Footer
+- Resume download
+- Project pages مستقلة لكل مشروع
+
+الصفحة الرئيسية يجب أن تجيب فورًا على:
+- من هو هذا الشخص؟
+- ماذا يبني؟
+- لماذا يجب أن أهتم به؟
+- لماذا يجب أن أتواصل معه أو أطلب مقابلة؟
+
+==================================================
+Hero Section Requirements
+==================================================
+الـ Hero يجب أن يحتوي على:
+- الاسم الكامل
+- المسمى الوظيفي المناسب
+- جملة قيمة قوية جدًا
+- CTA واضح ومباشر
+- رابط للمشاريع
+- رابط للـ CV
+- إشارة إلى أن المشاريع حقيقية ومستخدمة فعليًا
+- مؤشرات سريعة على المهارات أو مجالات العمل
+- انطباع أول محترف خلال ثوانٍ قليلة
+- استخدام بصري ذكي للمساحة
+- عدم حشو نصي
+
+المسمى الوظيفي المقترح:
+- Junior Full Stack Developer
+أو
+- Full Stack Developer
+
+لا تستخدم Independent في العنوان الرئيسي إلا إذا كان ذلك يخدم التسويق بشكل واضح ومقنع.
+
+==================================================
+About Section Requirements
+==================================================
+الـ About يجب أن يكون قصيرًا ولكن قويًا.
+
+يجب أن يشرح:
+- من هو
+- ماذا يبني
+- كيف يفكر كمطور
+- ما الذي يميزه
+- لماذا يختاره مسؤول التوظيف
+
+يمكن أن يحتوي على:
+- 2 إلى 4 جمل قوية
+- 3 إلى 6 نقاط مختصرة
+- صياغة عملية وليست إنشائية
+
+==================================================
+Skills Section Requirements
+==================================================
+رتب المهارات بشكل مهني وليس كقائمة عشوائية.
+
+اقسمها إلى:
+- Frontend
+- Backend
+- Database
+- Tools
+- Concepts / Software Engineering
+
+مثال المهارات المحتملة:
+- React
+- Next.js
+- TypeScript
+- JavaScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- Node.js
+- Express.js
+- REST APIs
+- Authentication
+- JWT
+- PostgreSQL
+- MongoDB
+- Schema Design
+- Query Optimization
+- Git
+- GitHub
+- Replit
+- VS Code
+- Debugging
+- AI-assisted workflow
+- Technical Documentation
+
+يجب ألا تظهر المهارات كزينة فقط، بل كخريطة واضحة لمستوى المطور.
+
+==================================================
+Case Studies / Featured Projects
+==================================================
+المشاريع يجب أن تُعرض كـ Case Studies وليس مجرد Cards.
+
+المشاريع الثلاثة التي يجب عرضها:
+1) TutorRL — مدرسك الذكي
+2) سوق ميت جابر
+3) System Core Project
+
+يجب أن يحتوي كل مشروع على:
+- عنوان واضح
+- نوع المشروع
+- وصف مختصر
+- المشكلة التي يحلها
+- الحل الذي قدمه
+- القيمة التجارية أو العملية
+- التقنيات المستخدمة
+- مميزات بارزة
+- لماذا هو مهم
+- رابط Live Demo
+- زر لصفحة المشروع
+- زر العودة للـ Portfolio
+
+يجب أن تكون الكتابة للمشاريع دقيقة، مقنعة، ومبنية على ما تم التحقق منه فقط.
+
+ممنوع:
+- تضخيم النتائج
+- اختراع أرقام
+- اختراع عدد مستخدمين
+- اختراع APIs
+- اختراع features غير موجودة
+- كتابة business impact غير مثبت
+
+==================================================
+Project Detail Pages
+==================================================
+أنشئ صفحة مستقلة لكل مشروع بالمسار:
+- /projects/tutorrl
+- /projects/marketplace
+- /projects/system-core
+
+كل صفحة يجب أن تحتوي على:
+- Overview
+- Problem
+- Solution
+- Goals
+- Target users
+- Features
+- Architecture notes
+- Technology stack
+- Engineering decisions
+- Challenges
+- Lessons learned
+- Future improvements
+- Live demo link
+- Back to portfolio link
+- Related screenshots
+- Navigation breadcrumbs
+- Next/previous project navigation
+
+كل صفحة يجب أن تكون مختلفة فعلًا في المحتوى وليست مجرد نسخة مكررة.
+
+==================================================
+Development Workflow Section
+==================================================
+أضف قسمًا يشرح طريقة البناء.
+
+مثال:
+- Discovery
+- Planning
+- UI / UX Design
+- Development
+- Testing
+- Deployment
+- Iteration / Maintenance
+
+هذا القسم يجب أن يوضح أن صاحب الموقع يفكر كمهندس منتج وليس مجرد منفذ واجهة.
+
+==================================================
+Experience / Independent Work
+==================================================
+بما أنه لا توجد خبرة شركات، يجب صياغة هذا القسم بذكاء.
+
+استخدم عنوانًا مثل:
+- Independent Full Stack Developer
+أو
+- Personal Project Experience
+
+ويجب أن يتضمن:
+- تطوير مشاريع كاملة بشكل مستقل
+- بناء واجهات
+- ربط منطق الأعمال
+- تنظيم البيانات
+- اختبار وتجربة ونشر
+- كتابة التوثيق التقني
+- العمل على مشاريع حقيقية قابلة للعرض
+- تحسين التجربة بناءً على المراجعة الذاتية
+
+لا تكتب "لا توجد خبرة" بشكل سلبي.  
+حوّلها إلى narrative احترافي يبين الخبرة العملية من المشاريع.
+
+==================================================
+Education Section
+==================================================
+اكتب التعليم بصياغة احترافية:
+Advanced Technical School
+Five-Year Program
+Computer & Electronics Department
+Belbeis, Sharqia, Egypt
+
+إذا أمكن، اجعل العرض منظمًا وواضحًا.
+
+==================================================
+Contact Section
+==================================================
+يجب أن يحتوي على:
+- Email
+- Phone
+- Location
+- GitHub
+- LinkedIn
+- Resume download
+- Availability
+- Timezone إذا لزم
+- Response expectation (optional)
+
+إذا كانت روابط GitHub وLinkedIn غير حقيقية، اتركها كـ placeholders واضحة فقط إذا لم يتم توفيرها.
+لا تختلق روابط.
+
+==================================================
+Footer Requirements
+==================================================
+يجب أن يحتوي على:
+- اسم صاحب الموقع
+- سنة الحقوق
+- إشارات تقنية خفيفة
+- روابط سريعة
+- ملاحظة قصيرة جدًا عن أن الموقع بُني بمشاريع حقيقية
+
+==================================================
+Design System Requirements
+==================================================
+أنشئ Design System واضحًا يتضمن:
+- color palette
+- typography scale
+- spacing system
+- button variants
+- card variants
+- badge styles
+- section headings
+- responsive breakpoints
+- dark/light tokens
+- motion rules
+- icon style
+- border radius rules
+- shadow rules
+- container width rules
+
+ويفضل توثيقه في ملف منفصل:
+DESIGN_SYSTEM.md
+
+==================================================
+Motion System Requirements
+==================================================
+أنشئ Motion System واضحًا يتضمن:
+- entrance animations
+- hover animations
+- press states
+- section reveal animations
+- page transitions
+- loading animations
+- skeleton animations
+- scroll-linked effects
+- reduced motion support
+
+ويجب توثيقه في:
+MOTION_GUIDE.md
+
+==================================================
+SEO Requirements
+==================================================
+نفّذ SEO كاملًا واحترافيًا:
+- unique title لكل صفحة
+- meta description لكل صفحة
+- Open Graph
+- Twitter cards
+- canonical URLs
+- JSON-LD structured data
+- robots.txt
+- sitemap.xml
+- favicon set
+- semantic headings hierarchy
+- descriptive link text
+- accessible page titles
+- social sharing previews
+- metadata for project pages
+
+أنشئ أيضًا ملف:
+SEO.md
+
+==================================================
+Accessibility Requirements
+==================================================
+يجب الالتزام بـ:
+- semantic HTML
+- keyboard navigation
+- visible focus states
+- aria labels حيث يلزم
+- sufficient color contrast
+- skip to content
+- logical heading order
+- alt text
+- readable text sizes
+- no motion overload
+- mobile-friendly controls
+- reduced motion support
+- screen-reader friendly landmarks
+
+نفّذ مراجعة متوافقة مع:
+WCAG 2.2 AA
+
+==================================================
+Performance Requirements
+==================================================
+قم بالتحسينات التالية:
+- code splitting عند الحاجة
+- lazy loading للصور والصفحات
+- optimized assets
+- avoid unnecessary re-renders
+- avoid heavy dependencies
+- minimize layout shifts
+- fast first render
+- production build ready
+- no console warnings
+- no broken imports
+- efficient route loading
+- stable layout after load
+
+حدد Performance Budget واضحًا:
+- max initial JS budget
+- max CSS budget
+- max image weight
+- max font weight
+- max acceptable LCP target
+- max acceptable CLS target
+- max acceptable INP target
+
+وثّق ذلك في:
+PERFORMANCE_BUDGET.md
+
+==================================================
+Browser Compatibility
+==================================================
+اختبر وتأكد من دعم:
+- Chrome
+- Firefox
+- Safari
+- Edge
+- Android browsers
+- iOS Safari
+
+تأكد من:
+- responsive layout
+- animations
+- sticky navbar behavior
+- button behavior
+- accessibility behavior
+
+وثّق هذا في:
+BROWSER_COMPATIBILITY.md
+
+==================================================
+Security / Best Practices
+==================================================
+- استخدم rel="noopener noreferrer" للروابط الخارجية عند الحاجة
+- لا تفتح أي شيء بشكل غير آمن
+- لا تستخدم raw HTML غير ضروري
+- لا تضف أكواد تجريبية داخل الإنتاج
+- لا تترك placeholder data في النسخة النهائية
+- لا تترك TODOs غير مفسرة
+- تأكد من حماية navigation الخارجية
+- تأكد من سلامة الإحالات الداخلية
+- راجع أي محتوى injected أو ديناميكي بحذر
+
+أنشئ ملفًا باسم:
+SECURITY_REVIEW.md
+
+==================================================
+Testing Requirements
+==================================================
+لا يكفي أن يعمل المشروع فقط.  
+يجب وجود استراتيجية اختبار واضحة.
+
+أنشئ ملفًا باسم:
+TESTING.md
+
+ويحتوي على:
+- Unit tests strategy
+- Integration tests strategy
+- E2E tests strategy
+- Accessibility testing strategy
+- Manual QA checklist
+- Visual regression checklist
+- Smoke test checklist
+- Production verification checklist
+
+==================================================
+Coding Standards
+==================================================
+أنشئ ملفًا باسم:
+CONTRIBUTING.md
+
+ويشمل:
+- naming conventions
+- folder conventions
+- component conventions
+- hook conventions
+- import conventions
+- formatting rules
+- comment rules
+- commit rules
+- branch rules
+- file ownership rules
+
+==================================================
+Analytics Strategy
+==================================================
+أنشئ ملفًا باسم:
+ANALYTICS.md
+
+ويجب أن يوضح:
+- ما الذي سيتم قياسه
+- لماذا
+- أي CTA أهم
+- أي مشروع يحصل على أكبر تفاعل
+- كيف تُقاس الزيارات
+- كيف يُقاس تحميل CV
+- كيف يُقاس التفاعل مع المشاريع
+- كيف يُقاس وقت البقاء
+
+==================================================
+Future Scalability
+==================================================
+أنشئ ملفًا باسم:
+ROADMAP.md
+
+ويشمل:
+- Version 2 ideas
+- Version 3 ideas
+- Optional future features
+- How to add more projects
+- How to localize the site
+- How to add blog or articles later
+- How to expand into a personal engineering site
+
+==================================================
+File Structure Requirements
+==================================================
+أنشئ هيكلًا نظيفًا ومنظمًا مثل:
+
+src/
+  components/
+  sections/
+  pages/
+  projects/
+  data/
+  hooks/
+  lib/
+  config/
+  utils/
+  assets/
+  styles/
+  constants/
+  types/
+
+وافصل بوضوح بين:
+- البيانات
+- الواجهة
+- الأقسام
+- صفحات المشاريع
+- الأدوات المساعدة
+- الإعدادات
+- التصميم
+- الحركة
+- التوثيق
+
+==================================================
+Architecture Documentation
+==================================================
+أنشئ:
+- ARCHITECTURE.md
+- ADR/0001-routing.md
+- ADR/0002-styling.md
+- ADR/0003-project-structure.md
+- ADR/0004-motion.md
+- ADR/0005-seo.md
+
+ويجب أن تشرح:
+- لماذا تم اختيار هذا الهيكل
+- لماذا تم اختيار هذه الأدوات
+- لماذا هذا routing pattern
+- لماذا هذا content structure
+- لماذا هذا motion system
+- لماذا هذه قرارات SEO
+- لماذا هذا التصميم مناسب للتوظيف
+
+==================================================
+Documentation Requirements
+==================================================
+أنشئ الملفات التالية:
+- README.md
+- ARCHITECTURE.md
+- DESIGN_SYSTEM.md
+- MOTION_GUIDE.md
+- DEPLOYMENT.md
+- SEO.md
+- CONTENT_GUIDE.md
+- PRODUCT_STRATEGY.md
+- PROJECT_RESEARCH.md
+- DESIGN_RESEARCH.md
+- COMPETITOR_ANALYSIS.md
+- PERFORMANCE_BUDGET.md
+- BROWSER_COMPATIBILITY.md
+- SECURITY_REVIEW.md
+- TESTING.md
+- CONTRIBUTING.md
+- ANALYTICS.md
+- ROADMAP.md
+
+ويجب أن تشرح هذه الملفات:
+- كيف يعمل المشروع
+- لماذا تم اختيار هذا التصميم
+- كيف يتم تشغيله
+- كيف يتم نشره
+- كيف يتم تعديل المحتوى
+- كيف يتم إضافة مشروع جديد
+- كيف يتم تحديث البيانات
+- كيف يتم التعامل مع الصور والـ SEO
+- كيف يتم التعامل مع الأخطاء
+- كيف يتم التعامل مع التوسعة المستقبلية
+
+==================================================
+Content Quality Rules
+==================================================
+- لا تستخدم عبارات عامة مكررة
+- لا تكتب فقرات طويلة بلا قيمة
+- لا تستخدم كلامًا إنشائيًا فارغًا
+- اجعل كل فقرة تخدم قرارًا أو انطباعًا
+- اجعل كل مشروع يشرح لماذا يهم
+- اجعل كل قسم يضيف قيمة حقيقية
+- اجعل كل CTA مقصودًا
+- اجعل كل عنوان مفيدًا
+- اجعل كل كلمة تقرب من قرار التوظيف
+
+==================================================
+Routing Requirements
+==================================================
+- استخدم React Router بشكل واضح
+- أنشئ routes منفصلة للصفحات الرئيسية وصفحات المشاريع
+- أضف صفحة 404 احترافية
+- أضف navigation واضحة
+- أضف breadcrumbs داخل صفحات المشاريع
+- أضف روابط next/previous بين المشاريع
+- أضف transitions مناسبة بين الصفحات
+
+==================================================
+Error / Empty / Loading States
+==================================================
+يجب أن يحتوي الموقع على:
+- Loading states
+- Skeletons
+- Empty states
+- Error states
+- Retry behavior عند الحاجة
+- Fallback UI عندما لا تتوفر البيانات
+- 404 page
+- Graceful fallback for missing project content
+
+==================================================
+Data Strategy
+==================================================
+افصل البيانات عن العرض.
+
+استخدم ملفات بيانات منفصلة مثل:
+- personal data
+- skills data
+- projects data
+- navigation data
+- social links
+- workflow steps
+- stats
+- education data
+
+يجب أن تكون البيانات قابلة للتعديل بسهولة بدون تعديل منطق الصفحات.
+
+==================================================
+Project Presentation Strategy
+==================================================
+لكل مشروع يجب أن تُصمم طريقة عرض مختلفة ولكن متسقة.
+
+يجب أن تُعرض المشاريع وفق هذا المنطق:
+- الأول: أقوى جاذبية بصرية أو أكثر مشروع يوضح هوية المطور
+- الثاني: أقوى مشروع تجاري/عملي
+- الثالث: مشروع يثبت القدرة على بناء أنظمة منظمة
+
+ويجب أن تشرح لماذا تم هذا الترتيب داخل التقرير.
+
+==================================================
+UX Heuristics Review
+==================================================
+بعد التنفيذ، قيّم الموقع وفق Nielsen 10 Heuristics:
+- visibility of system status
+- match between system and real world
+- user control and freedom
+- consistency and standards
+- error prevention
+- recognition rather than recall
+- flexibility and efficiency
+- aesthetic and minimalist design
+- help users recognize, diagnose, and recover from errors
+- help and documentation
+
+واكتب النتيجة في:
+UX_HEURISTICS_REVIEW.md
+
+==================================================
+Accessibility Audit
+==================================================
+نفّذ مراجعة متوافقة مع WCAG 2.2 AA واكتب النتائج في:
+ACCESSIBILITY_AUDIT.md
+
+يجب أن يشمل:
+- contrast
+- keyboard navigation
+- semantics
+- focus order
+- alt text
+- labels
+- landmarks
+- reduced motion
+- screen reader behavior
+- touch target sizes
+
+==================================================
+Iterative Improvement Loop
+==================================================
+هذه نقطة إلزامية مهمة جدًا:
+بعد الانتهاء من كل مرحلة، نفّذ مراجعة ذاتية، ثم أصلح جميع المشكلات المكتشفة، ثم أعد المراجعة. كرر هذه الدورة حتى لا يبقى أي خلل من مستوى Critical أو High.
+
+لا تعتبر أي مرحلة مكتملة لمجرد انتهاء التنفيذ الأول.
+لا تعتبر المهمة منتهية إلا بعد:
+- فحص ذاتي
+- تصحيح
+- إعادة فحص
+- تقليل الأخطاء إلى الحد الأدنى
+- اعتماد النسخة النهائية
+
+==================================================
+Self-Audit Requirements
+==================================================
+بعد الإنشاء، راجع المشروع مرة أخرى كأنك:
+- Senior Frontend Engineer
+- Technical Recruiter
+- Hiring Manager
+- Accessibility Reviewer
+- SEO Reviewer
+- Performance Engineer
+- Product Strategist
+
+وأخرج تقريرًا نهائيًا يوضح:
+- ما تم التحقق منه
+- ما تم بناؤه
+- ما تم تحسينه
+- ما الذي لم يمكن التحقق منه
+- ما الذي بقي اختياريًا للمستقبل
+- ما الذي تم رفضه ولماذا
+- ما الذي يحتاج تحسينًا لاحقًا
+
+أنشئ ملفًا باسم:
+FINAL_AUDIT.md
+
+==================================================
+Delivery / Acceptance Criteria
+==================================================
+لا تعتبر المهمة منتهية إلا إذا تحقق التالي:
+- تم البحث والتحقق من المشاريع الثلاثة
+- تم تدوين ما هو verified وما هو unknown
+- تم بناء Portfolio جديد من الصفر
+- تم تطبيق التصميم الجديد بالكامل
+- كل الصفحات تعمل
+- كل الروابط تعمل
+- كل project pages تعمل
+- الوضع الداكن والفاتح يعملان
+- الموقع responsive على كل الشاشات
+- build ناجح بدون أخطاء
+- console نظيف
+- SEO موجود وفعال
+- accessibility محترمة
+- الصور والـ assets منظمة
+- التوثيق مكتمل
+- المحتوى لا يحتوي على أي ادعاء غير مثبت
+- تم تنفيذ self-audit وتكرار التحسين حتى لا توجد Critical أو High issues
+- النتيجة النهائية مناسبة مباشرة للتقديم على الشركات والتوظيف
+
+==================================================
+Final Instruction
+==================================================
+ابدأ بالبحث فقط.
+لا تكتب أي كود قبل إنهاء التحقق الكامل.
+لا تنتقل إلى التصميم قبل توثيق النتائج.
+لا تنتقل إلى البناء قبل إنهاء استراتيجية المحتوى.
+لا تعتبر المشروع مكتملًا إلا بعد المراجعة الذاتية النهائية.
