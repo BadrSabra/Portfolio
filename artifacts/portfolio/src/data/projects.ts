@@ -65,7 +65,7 @@ export const projects: Project[] = [
   },
   {
     id: "marketplace",
-    name: "مع جابر — Ma'a Gaber",
+    name: "ميت جابر — Mit Gaber",
     typeBadge: "Hyperlocal Marketplace Platform",
     shortDescription: "A full-featured hyperlocal marketplace with multi-role management, real-time chat, driver fee negotiation, and digital wallets.",
     problem: "Local communities lack a digital commerce platform built for their actual workflows — one that handles delivery coordination, vendor management, and trust between buyers, sellers, and drivers.",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     slug: "marketplace",
     presentationFocus: "Strongest business and real-world engineering complexity",
     details: {
-      overview: "Ma'a Gaber (مع جابر) is a production-grade hyperlocal marketplace platform serving four distinct user roles: Admin, Customer, Store Owner, and Driver. It combines e-commerce, real-time communication, financial ledgers, and logistics into a single cohesive system — deployed on Render.com with Docker and CI/CD via GitHub Actions.",
+      overview: "Mit Gaber (ميت جابر) is a hyperlocal marketplace platform serving four distinct user roles: Admin, Customer, Store Owner, and Driver. It combines e-commerce, real-time communication, financial ledgers, and logistics into a single cohesive system — deployed on Render.com with Docker and CI/CD via GitHub Actions.",
       solution: "A modular monolith with feature-based backend modules and a React SPA frontend. The platform handles the complete order lifecycle: browsing → checkout → driver assignment → delivery OTP verification → settlement via in-app wallets.",
       goals: [
         "Support four distinct user roles with role-appropriate dashboards and permissions",
