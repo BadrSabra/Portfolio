@@ -1,6 +1,21 @@
+import { Link, useLocation } from "wouter";
 import { personalInfo } from "@/data/personal";
+import { navigation } from "@/data/navigation";
 
 export function Footer() {
+  const [location] = useLocation();
+  const isHomePage = location === "/";
+
+  const handleNavClick = (e: React.MouseEvent, href: string) => {
+    if (isHomePage && href.startsWith("#")) {
+      e.preventDefault();
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <footer className="border-t border-border bg-card py-12">
       <div className="container mx-auto px-4 md:px-6">
@@ -16,9 +31,27 @@ export function Footer() {
           <div>
             <h4 className="font-medium mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="/#about" className="hover:text-accent transition-colors">About</a></li>
-              <li><a href="/#projects" className="hover:text-accent transition-colors">Projects</a></li>
-              <li><a href="/#contact" className="hover:text-accent transition-colors">Contact</a></li>
+              {isHomePage ? (
+                navigation.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      onClick={(e) => handleNavClick(e, item.href)}
+                      className="hover:text-accent transition-colors"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))
+              ) : (
+                navigation.map((item) => (
+                  <li key={item.name}>
+                    <Link href={`/${item.href}`} className="hover:text-accent transition-colors">
+                      {item.name}
+                    </Link>
+                  </li>
+                ))
+              )}
             </ul>
           </div>
           <div>
