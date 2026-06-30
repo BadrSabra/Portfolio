@@ -7,7 +7,7 @@ export const personalInfo = {
   remoteAvailable: true,
   email: "badraldien1@yahoo.com",
   phone: "+20 101 493 8000",
-  github: "https://github.com/placeholder",
+  github: "https://github.com/BadrSabra",
   linkedin: "https://www.linkedin.com/in/badr-aldien-sabra",
   cvUrl: "/cv.html",
   availability: "Open to full-time, part-time, and contract work. Remote preferred.",
