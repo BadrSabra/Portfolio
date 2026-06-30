@@ -16,7 +16,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       {project.image && (
         <div className="overflow-hidden h-48 bg-secondary/30">
           <img
-            src={project.image}
+            src={import.meta.env.BASE_URL.replace(/\/$/, '') + project.image}
             alt={`${project.name} screenshot`}
             className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
           />
