@@ -69,6 +69,21 @@ export default function ProjectTutorRL() {
             </motion.div>
           </header>
 
+          {project.image && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 }}
+              className="mb-16 rounded-xl overflow-hidden border border-border shadow-lg"
+            >
+              <img
+                src={project.image}
+                alt={`${project.name} screenshot`}
+                className="w-full max-h-[480px] object-cover object-top"
+              />
+            </motion.div>
+          )}
+
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

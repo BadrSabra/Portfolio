@@ -13,6 +13,15 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="group relative flex flex-col bg-card border border-border rounded-xl overflow-hidden hover:border-accent/50 transition-colors"
     >
+      {project.image && (
+        <div className="overflow-hidden h-48 bg-secondary/30">
+          <img
+            src={project.image}
+            alt={`${project.name} screenshot`}
+            className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+          />
+        </div>
+      )}
       <div className="p-8 flex-1 flex flex-col">
         <div className="flex justify-between items-start mb-6">
           <div>
