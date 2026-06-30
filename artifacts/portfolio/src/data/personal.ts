@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Belbeis, Sharqia, Egypt",
   remoteAvailable: true,
   email: "badraldien1@yahoo.com",
-  phone: "+20 101 493 8000",
+  phone: "+201014938003",
   github: "https://github.com/BadrSabra",
   linkedin: "https://www.linkedin.com/in/badr-aldien-sabra",
   cvUrl: "/cv.html",
