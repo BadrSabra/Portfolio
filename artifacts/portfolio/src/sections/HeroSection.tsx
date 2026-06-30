@@ -65,8 +65,7 @@ export function HeroSection() {
             {personalInfo.cvUrl && (
               <a
                 href={personalInfo.cvUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                download="CV-Badr-Aldien-Sabra.html"
                 className="inline-flex items-center justify-center gap-2 h-12 px-8 rounded-md bg-secondary text-secondary-foreground font-medium hover:bg-secondary/80 border border-border transition-colors"
               >
                 <Download className="w-4 h-4" /> Download CV
