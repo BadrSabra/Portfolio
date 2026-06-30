@@ -154,7 +154,7 @@ export function ContactSection() {
                   <ValidationError field="message" prefix="Message" errors={state.errors} className="text-xs text-red-500 mt-1" />
                 </div>
 
-                {state.errors && state.errors.length > 0 && !state.submitting && (
+                {state.errors && !state.submitting && (
                   <div className="flex items-center gap-2 text-red-500 text-sm">
                     <AlertCircle className="w-4 h-4 shrink-0" />
                     <span>Something went wrong. Please try again or email me directly.</span>
