@@ -5,7 +5,8 @@ import { Mail, Phone, MapPin, Github, Linkedin, Send, CheckCircle, AlertCircle, 
 import { useForm, ValidationError } from "@formspree/react";
 
 export function ContactSection() {
-  const [state, handleSubmit] = useForm("mlgywryy");
+  const formspreeId = import.meta.env.VITE_FORMSPREE_ID as string;
+  const [state, handleSubmit] = useForm(formspreeId);
 
   return (
     <section id="contact" className="py-24 bg-card/30">
