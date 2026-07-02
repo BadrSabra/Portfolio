@@ -1,5 +1,4 @@
-import { Printer, ArrowLeft, ExternalLink } from "lucide-react";
-import { Link } from "wouter";
+import { Printer, ArrowLeft } from "lucide-react";
 
 export default function CVPage() {
   return (
@@ -15,12 +14,13 @@ export default function CVPage() {
 
       {/* ─── Toolbar (hidden when printing) ──────────────────────── */}
       <div className="no-print fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border px-5 py-3 flex items-center justify-between gap-4 print:hidden">
-        <Link href="/">
-          <a className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors">
-            <ArrowLeft className="w-4 h-4" />
-            Back to Portfolio
-          </a>
-        </Link>
+        <a
+          href={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}
+          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Portfolio
+        </a>
 
         <button
           onClick={() => window.print()}
