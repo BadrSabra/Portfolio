@@ -33,7 +33,7 @@ export const projects: Project[] = [
     stack: ["React", "Node.js", "Express", "AI / LLM", "Arabic RTL"],
     liveUrl: "https://pasted-assets--omgasser2091999.replit.app/",
     slug: "tutorrl",
-    image: "/projects/tutorrl.png",
+    image: "/projects/tutorrl.webp",
     presentationFocus: "Shows product thinking, domain specificity, and AI integration",
     details: {
       overview: "TutorRL is an Arabic-language AI-powered tutoring assistant built specifically for Egyptian secondary school (Thanaweyya Amma) students. It provides intelligent lesson explanations and step-by-step problem-solving guidance through a conversational interface — entirely in Arabic, with full RTL layout support.",
@@ -82,7 +82,7 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://104-mg-2--shahoda8601.replit.app/",
     slug: "marketplace",
-    image: "/projects/marketplace.png",
+    image: "/projects/marketplace.webp",
     presentationFocus: "Strongest business and real-world engineering complexity",
     details: {
       overview: "Mit Gaber (ميت جابر) is a hyperlocal marketplace platform serving four distinct user roles: Admin, Customer, Store Owner, and Driver. It combines e-commerce, real-time communication, financial ledgers, and logistics into a single cohesive system — deployed on Render.com with Docker and CI/CD via GitHub Actions.",
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://system-core-project-2-zip--bsabra1994.replit.app/",
     slug: "system-core",
-    image: "/projects/clinicpro.png",
+    image: "/projects/clinicpro.webp",
     presentationFocus: "Demonstrates ability to build organized, role-based, production-quality systems",
     details: {
       overview: "ClinicPro is a full-stack clinic management application covering the core operational lifecycle of a medical clinic. It supports four staff roles (Admin, Doctor, Nurse, Receptionist), a public patient-facing booking page, and a back-office for appointments, billing, prescriptions, inventory, and reporting — with Arabic RTL UI support throughout.",
