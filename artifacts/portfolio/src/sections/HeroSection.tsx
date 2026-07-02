@@ -62,15 +62,14 @@ export function HeroSection() {
             >
               View My Work
             </a>
-            {personalInfo.cvUrl && (
-              <a
-                href={import.meta.env.BASE_URL.replace(/\/$/, '') + personalInfo.cvUrl}
-                download="CV-Badr-Aldien-Sabra.html"
-                className="inline-flex items-center justify-center gap-2 h-12 px-8 rounded-md bg-secondary text-secondary-foreground font-medium hover:bg-secondary/80 border border-border transition-colors"
-              >
-                <Download className="w-4 h-4" /> Download CV
-              </a>
-            )}
+            <a
+              href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/cv`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 h-12 px-8 rounded-md bg-secondary text-secondary-foreground font-medium hover:bg-secondary/80 border border-border transition-colors"
+            >
+              <Download className="w-4 h-4" /> View CV
+            </a>
           </motion.div>
 
           {/* Live Projects Indicators */}
