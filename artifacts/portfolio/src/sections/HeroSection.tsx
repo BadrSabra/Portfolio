@@ -63,12 +63,11 @@ export function HeroSection() {
               View My Work
             </a>
             <a
-              href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/cv`}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={`${import.meta.env.BASE_URL}cv.pdf`}
+              download="CV-Badr-Aldien-Sabra.pdf"
               className="inline-flex items-center justify-center gap-2 h-12 px-8 rounded-md bg-secondary text-secondary-foreground font-medium hover:bg-secondary/80 border border-border transition-colors"
             >
-              <Download className="w-4 h-4" /> View CV
+              <Download className="w-4 h-4" /> Download CV
             </a>
           </motion.div>
 

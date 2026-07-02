@@ -8,7 +8,6 @@ import HomePage from '@/pages/HomePage';
 import ProjectTutorRL from '@/pages/ProjectTutorRL';
 import ProjectMarketplace from '@/pages/ProjectMarketplace';
 import ProjectSystemCore from '@/pages/ProjectSystemCore';
-import CVPage from '@/pages/CVPage';
 import NotFound from '@/pages/not-found';
 
 const queryClient = new QueryClient();
@@ -20,7 +19,6 @@ function Router() {
       <Route path="/projects/tutorrl" component={ProjectTutorRL} />
       <Route path="/projects/marketplace" component={ProjectMarketplace} />
       <Route path="/projects/system-core" component={ProjectSystemCore} />
-      <Route path="/cv" component={CVPage} />
       <Route component={NotFound} />
     </Switch>
   );
