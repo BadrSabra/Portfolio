@@ -77,8 +77,10 @@ export default function ProjectTutorRL() {
               className="mb-16 rounded-xl overflow-hidden border border-border shadow-lg"
             >
               <img
-                src={project.image}
+                src={import.meta.env.BASE_URL.replace(/\/$/, '') + project.image}
                 alt={`${project.name} screenshot`}
+                loading="eager"
+                decoding="async"
                 className="w-full max-h-[480px] object-cover object-top"
               />
             </motion.div>
